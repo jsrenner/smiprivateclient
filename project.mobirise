@@ -22,8 +22,10 @@
       }
     },
     "versionFirst": "3.11.1",
-    "uniqCompNum": 32,
-    "versionPublish": "3.11.1"
+    "uniqCompNum": 81,
+    "versionPublish": "3.11.1",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -35,6 +37,548 @@
         "footer_custom": "",
         "html_before": ""
       },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1a242f"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#273646!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2c3e50"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f39c12!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#2c3e50",
+            "fontSize": 0.875,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"true\">LOGIN</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">GET STARTED</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/smi-private-client-white-back-528x128-2.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_customHTML": "<section class=\"menu1\">\n\n    <nav class=\"navbar navbar-dropdown bg-color transparent navbar-fixed-top\">\n        <div class=\"container-fluid\">\n\n            <div class=\"mbr-table\">\n                <div class=\"mbr-table-cell\">\n\n                    <div class=\"navbar-brand\">\n                       <a href=\"https://mobirise.com\" class=\"navbar-logo\"><img src=\"https://dcktxkaneetr8.cloudfront.net/smifund/SMI-Private-Client-white-back-longer-med.png\" alt=\"Mobirise\"></a>\n                        \n                    </div>\n\n                </div>\n                <div class=\"mbr-table-cell\">\n\n                    <button class=\"navbar-toggler pull-xs-right hidden-md-up\" type=\"button\" data-toggle=\"collapse\" data-target=\"#exCollapsingNavbar\">\n                        <div class=\"hamburger-icon\"></div>\n                    </button>\n\n                    <ul class=\"nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm\" id=\"exCollapsingNavbar\"><li class=\"nav-item dropdown\"><a class=\"nav-link link mbr-editable-menu-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\" code-editable-id=\"455\">LOGIN</a></li><li class=\"nav-item nav-btn\"><a class=\"nav-link btn btn-white btn-white-outline mbr-editable-menu-item\" href=\"page1.html\" code-editable-id=\"456\">GET STARTED</a></li></ul>\n                    <button hidden=\"\" class=\"navbar-toggler navbar-close\" type=\"button\" data-toggle=\"collapse\" data-target=\"#exCollapsingNavbar\">\n                        <div class=\"close-icon\"></div>\n                    </button>\n\n                </div>\n            </div>\n\n        </div>\n    </nav>\n\n</section>",
+          "_customCSS": ".hide-buttons .nav-btn {\n\tdisplay: none !important;\n}\n.navbar-caption {\n\tcolor: #ffffff;\n}\n.navbar-toggler {\n\tcolor: #ffffff;\n}\n.close-icon::before, .close-icon::after {\n\tbackground-color: #ffffff;\n}\n.link, .dropdown-item {\n\tcolor: #ffffff;\n}\n.link {\n\tfont-size: 0.875rem;\n}\n.dropdown-item, .nav-dropdown-sm .link {\n\tfont-size: 0.948rem;\n}\n.link:hover, .link:focus {\n\tcolor: #f39c12;\n}\n.dropdown-item:hover::before, .dropdown-item:focus::before {\n\tbackground: #f39c12;\n}\n.dropdown-item:hover, .dropdown-item:focus {\n\tcolor: #ffffff;\n}\n.link[aria-expanded=\"true\"], .dropdown-menu {\n\tbackground: #1a242f;\n}\n.nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover {\n\tbackground: #273646!important;\n}\n.navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu {\n\tbackground: #2c3e50;\n}\n.bg-color.transparent .link {\n\tcolor: #ffffff;\n\ttransition: none;\n}\n.bg-color.transparent.opened .link {\n\ttransition: color .2s ease-in-out;\n}\n.bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus {\n\tcolor: #f39c12;\n}\n.link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"] {\n\tcolor: #f39c12!important;\n}\n.container, .container-fluid {margin-right:150px; margin-left:175px}\n",
+          "_customTemplate": true,
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_anchor": "menu-v"
+        },
+        {
+          "arrowDown": "@THEME_PATH@/components/_images/header/arrowDown.png",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header5",
+          "_params": {
+            "showHeader": true,
+            "showImages": true,
+            "showTitles": true,
+            "tabs": "5",
+            "bgImageRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/header/04.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#34495e",
+            "overlayOpacity": 0.9
+          },
+          "title": "Our<br> advantages",
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "title1": "BOOST YOUR RANKING",
+          "text1": "Sites made with Mobirise are 100% mobile-friendly according the latest Google Test and Google loves those websites (officially)! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut cupiditate est, illum quo. Unde in fugit commodi labore earum harum, minus itaque maxime asperiores voluptatibus, iusto quae, ab dignissimos sequi.",
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "attachment",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "title2": "BOOTSTRAP BUILDER",
+          "text2": "Mobirise themes are based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework. Now, even if you're not code-savvy, you can be a part of an exciting growing bootstrap community. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique maxime, placeat. Dignissimos incidunt, consequuntur molestiae! Exercitationem tempora qui, non sit quia, voluptate sequi repudiandae accusamus voluptatem expedita ducimus vero incidunt.",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "paperclip",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "title3": "TRENDY WEBSITE BLOCKS",
+          "text3": "Choose from the large selection of latest pre-made blocks - full-screen intro, bootstrap carousel, content slider, responsive image gallery with lightbox, parallax scrolling, video backgrounds, hamburger menu, sticky header and more. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, nam officia. Repellendus quae modi eaque sed, aliquam molestias, amet neque blanditiis illo ratione eos! Unde minima porro, consequatur eveniet dolore!",
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "upload",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "title4": "HOST ANYWHERE",
+          "text4": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, nisi, ea. Excepturi dolores, laborum ipsum soluta aliquid, ullam repellat ratione iste harum voluptatem? Alias id blanditiis, sequi possimus dolorem dolorum.",
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "genius",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "title5": "IMAGE/CONTENT SLIDER",
+          "text5": "Create a responsive, touch-swipe slideshow with <a href=\"http://mobirise.com\">Mobirise bootstrap slider</a>. Add images, text, buttons to slides, set autoplay, full-screen, full-width or boxed layout. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde sunt, illo quo ipsa. Laboriosam voluptatem sunt nisi velit incidunt labore, sapiente pariatur ipsam fugiat doloremque asperiores eos ipsum, eveniet cum.",
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "global",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "title6": "CONTACT FORMS",
+          "text6": "Easily add subscribe and contact forms without any server-side integration. Just link your email to form and get submissions instantly. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium id perspiciatis, sint odit error animi veniam omnis cupiditate distinctio, a quidem deleniti laborum maiores optio laudantium earum vel! Sint, rerum.",
+          "tabTitle": "<li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1header5-11\" aria-expanded=\"false\">Responsive</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2header5-11\" aria-expanded=\"false\">Creative</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3header5-11\">Animated</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4header5-11\" aria-expanded=\"true\">Awesome</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5header5-11\">Amazing</a></li><li class=\"nav-item\" style=\"display: none;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6header5-11\">Beautiful</a></li>",
+          "_customHTML": "<section class=\"mbr-section--bg-adapted mbr-section-full mbr-section--relative header5 mbr-parallax-background\" style=\"background-image: url(@PROJECT_PATH@/assets/images/istock-2000x1349.jpg);\">\n    <div class=\"mbr-overlay\" style=\"opacity: 0.9; background-color: rgb(52, 73, 94);\"></div>\n    <div class=\"mbr-table-cell mbr-table-cell-vertical-bottom elements-content position-relative\">\n        <div class=\"container-fluid\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-lg-8 col-lg-offset-2 text-xs-left\">\n\n                    <h1 class=\"mbr-section-title display-1 mbr-editable-content\" style=\"font-size: 48px;\" code-editable-id=\"505\">Introducing a new and exciting way to invest in the SMI strategies</h1>\n                    <div class=\"tab-content noScroll\">\n\n                        <div id=\"tab1header5-11\" class=\"tab-pane in fade active mbr-table\" role=\"tabpanel\">\n                            <div class=\"col-xs-1 mbr-table-cell table-cell-top\">\n                                <div class=\"mbr-figure-background\"></div>\n                                <div class=\"mbr-figure\"><a href=\"https://mobirise.com\" class=\"icon54-dot-chart1 mbr-iconfont mbr-iconfont-header5\" style=\"color: rgb(243, 156, 18);\"></a></div>\n                            </div>\n                            <div class=\"col-xs-11 mbr-table-cell\">\n                                <p class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"506\">ACCESS TO ALL SMI STRATEGIES</p>\n                                <div class=\"row\">\n                                    <div class=\"col-md-12\">\n                                        <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"507\">Through SMI Private Client, you'll be able to implement the Sound Mind Investing strategies, including Dynamic Assett Allocation, Stock Upgrading, Sector Rotation, Just-the-Basics and Bond Upgrading.</p>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n\n                        <div id=\"tab2header5-11\" class=\"tab-pane fade mbr-table\" role=\"tabpanel\">\n                            <div class=\"col-xs-1 mbr-table-cell table-cell-top\">\n                                <div class=\"mbr-figure-background\"></div>  \n                                <div class=\"mbr-figure\"><a href=\"https://mobirise.com\" class=\"icon54-contact-folder mbr-iconfont mbr-iconfont-header5\" style=\"color: rgb(243, 156, 18);\"></a></div>\n                            </div>\n                            <div class=\"col-xs-11 mbr-table-cell\">\n                                <h3 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"508\">CUSTOMIZED PORTFOLIO RECOMMENDATIONS</h3>\n                                <div class=\"row\">\n                                    <div class=\"col-md-12\">\n                                        <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"509\">SMI Private Client utilizes a short questionnaire that helps us to determine your specific risk tolerance. This allows us to make customized recommendations for your portfolio that help you to accomplish your goals without pushing you outside of your investing comfort zone.\n</p>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n\n                        <div id=\"tab3header5-11\" class=\"tab-pane fade mbr-table\" role=\"tabpanel\">\n                            <div class=\"col-xs-1 mbr-table-cell table-cell-top\">\n                                <div class=\"mbr-figure-background\"></div>\n                                <div class=\"mbr-figure\"><a href=\"https://mobirise.com\" class=\"icon54-send-money mbr-iconfont mbr-iconfont-header5\" style=\"font-size: 56px; color: rgb(243, 156, 18);\"></a></div>\n                            </div>\n                            <div class=\"col-xs-11 mbr-table-cell\">\n                                <h3 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"510\">SAVE MONEY ON FEES</h3>\n                                <div class=\"row\">\n                                    <div class=\"col-md-12\">\n                                        <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"511\">Choose from the large selection of latest pre-made blocks - full-screen intro, bootstrap carousel, content slider, responsive image gallery with lightbox, parallax scrolling, video backgrounds, hamburger menu, sticky header and more. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, nam officia. Repellendus quae modi eaque sed, aliquam molestias, amet neque blanditiis illo ratione eos! Unde minima porro, consequatur eveniet dolore!</p>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n\n                        <div id=\"tab4header5-11\" class=\"tab-pane fade mbr-table\" role=\"tabpanel\">\n                            <div class=\"col-xs-1 mbr-table-cell table-cell-top\">\n                                <div class=\"mbr-figure-background\"></div>\n                                <div class=\"mbr-figure\"><a href=\"https://mobirise.com\" class=\"icon54-strategy-1 mbr-iconfont mbr-iconfont-header5\" style=\"font-size: 57px; color: rgb(243, 156, 18);\"></a></div>\n                            </div>\n                            <div class=\"col-xs-11 mbr-table-cell\">\n                                <h3 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"512\">FREE PLANNING USING MONEYGUIDEPRO</h3>\n                                <div class=\"row\">\n                                    <div class=\"col-md-12\">\n                                        <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"513\">Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, nisi, ea. Excepturi dolores, laborum ipsum soluta aliquid, ullam repellat ratione iste harum voluptatem? Alias id blanditiis, sequi possimus dolorem dolorum.</p>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n\n                        <div id=\"tab5header5-11\" class=\"tab-pane fade mbr-table\" role=\"tabpanel\">\n                            <div class=\"col-xs-1 mbr-table-cell table-cell-top\">\n                                <div class=\"mbr-figure-background\"></div>\n                                <div class=\"mbr-figure\"><a href=\"https://mobirise.com\" class=\"icon54-firewall-ok mbr-iconfont mbr-iconfont-header5\" style=\"font-size: 59px; color: rgb(243, 156, 18);\"></a></div>\n                            </div>\n                            <div class=\"col-xs-11 mbr-table-cell\">\n                                <h3 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"514\">TRUSTED MANAGERS</h3>\n                                <div class=\"row\">\n                                    <div class=\"col-md-12\">\n                                        <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"515\">Create a responsive, touch-swipe slideshow with <a href=\"http://mobirise.com\">Mobirise bootstrap slider</a>. Add images, text, buttons to slides, set autoplay, full-screen, full-width or boxed layout. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde sunt, illo quo ipsa. Laboriosam voluptatem sunt nisi velit incidunt labore, sapiente pariatur ipsam fugiat doloremque asperiores eos ipsum, eveniet cum.</p>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n\n                        <div id=\"tab6header5-11\" class=\"tab-pane fade mbr-table\" role=\"tabpanel\">\n                            <div class=\"col-xs-1 mbr-table-cell table-cell-top\">\n                                <div class=\"mbr-figure-background\"></div>\n                                <div class=\"mbr-figure\"><a href=\"https://mobirise.com\" class=\"etl-icon icon-global mbr-iconfont mbr-iconfont-header5\" style=\"color: rgb(243, 156, 18);\"></a></div>\n                            </div>\n                            <div class=\"col-xs-11 mbr-table-cell\">\n                                <h3 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"516\">CONTACT FORMS</h3>\n                                <div class=\"row\">\n                                    <div class=\"col-md-12\">\n                                        <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"517\">Easily add subscribe and contact forms without any server-side integration. Just link your email to form and get submissions instantly. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium id perspiciatis, sint odit error animi veniam omnis cupiditate distinctio, a quidem deleniti laborum maiores optio laudantium earum vel! Sint, rerum.</p>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n\n                    </div>\n\n                </div>\n            </div>\n\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-lg-10 col-lg-offset-1\">\n\n                    <div class=\"clearfix\"></div>\n                    \n                    <ul class=\"nav nav-tabs mbr-editable-content\" role=\"tablist\" code-editable-id=\"518\"><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1header5-11\" aria-expanded=\"false\">Strategies</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2header5-11\" aria-expanded=\"false\">Customized</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3header5-11\">Save Money</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4header5-11\" aria-expanded=\"true\">Free Planning</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5header5-11\">Trusted</a></li><li class=\"nav-item\" style=\"display: none;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6header5-11\">Beautiful</a></li></ul>\n\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "@import url(undefined);\n.elements-content {\n\tpadding-bottom: 140px;\n}\n.mbr-section-subtitle {\n\tletter-spacing: 2px;\n\tmargin-bottom: 10px;\n\tfont-weight: 700;\n}\n.mbr-section-title, .tab-pane {\n\tcolor: #fff;\n}\n.mbr-section-title {\n\tmargin-bottom: 60px;\n}\n.nav-tabs {\n\tmargin-top: 90px;\n}\n",
+          "_customTemplate": true,
+          "_anchor": "header5-11"
+        },
+        {
+          "_styles": {
+            ".subtitle": {
+              "color": "#333333"
+            },
+            ".call-card.active .title": {
+              "color": "#000000"
+            },
+            ".call-card.active .mbr-section-subtitle": {
+              "color": "#aaaaaa"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "call6",
+          "_anchor": "call6-18",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "1",
+            "activeColor": "#ffffff",
+            "themeColor": "@primaryColor",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/09.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.7,
+            "overlayColor": "#fff",
+            "showHeader": true,
+            "showHeaderText": true,
+            "showSubtitles": true,
+            "showTitles": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "header": "Almost any type of account <br>can be opened.",
+          "text": "Including Traditional/Roth IRA,&nbsp;Joint,&nbsp;Individual,&nbsp;Trust&nbsp;and more!",
+          "subtitle1": "MANAGEMENT FEE",
+          "title1": "0.85%",
+          "text1": "Most advisors will charge over 1.50% <br>for this level of service<br>",
+          "buttons1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">start here</a>",
+          "subtitle2": "MINIMUM INVESTMENT",
+          "title2": "$250,000",
+          "text2": "<br><br>",
+          "buttons2": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\">start here</a>"
+        },
+        {
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "call1",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2c3e50",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#16a085",
+            "overlayOpacity": 0.9
+          },
+          "text": "SMI Private Client will help you",
+          "title": "REALIZE YOUR INVESTMENT GOALS<div><br></div>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEt's Get Started</a>",
+          "_customCSS": ".display-1 {\n\tfont-weight: 700;\n}\n.lead {\n\tcolor: #fff;\n\ttext-transform: uppercase;\n\tmargin-bottom: 0;\n}\n.mbr-section-title {\n\tfont-size: 80px;\n}\n",
+          "_customHTML": "<section class=\"mbr-section mbr-section-hero call1 mbr-parallax-background\" style=\"background-image: url(@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg); padding-top: 80px; padding-bottom: 80px;\">\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0.9; background-color: rgb(22, 160, 133);\"></div>\n\n        <div class=\"container-fluid\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-lg-10 col-lg-offset-1 text-xs-left\">\n\n                    <div class=\"col-xs-12 col-lg-8 text-lg-left text-xs-center table-cell-lg\">\n                        <p class=\"mbr-section-subtitle lead subtitle mbr-editable-content\" code-editable-id=\"442\">SMI Private Client will help you</p>\n\n                        <h2 class=\"mbr-section-title display-1 mbr-editable-content\" code-editable-id=\"443\">REALIZE YOUR INVESTMENT GOALS<div><br></div></h2>\n                    </div>\n\n                    <div class=\"col-xs-12 col-lg-4 text-xs-center table-cell-lg table-cell-middle\">\n                        <div class=\"mbr-section-btn\"><a class=\"btn btn-primary btn-lg mbr-editable-button\" href=\"https://mobirise.com\" code-editable-id=\"444\">LEt's Get Started</a></div>\n                    </div>\n\n                </div>\n            </div>\n        </div>\n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customTemplate": true,
+          "_anchor": "call1-1c"
+        },
+        {
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "font-size": "14px",
+              "color": "#666666"
+            }
+          },
+          "_anchor": "content1-1h",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": 1,
+            "bgColor": "#ecf0f1"
+          },
+          "text": "1 If the Stock Upgrading portion of the portfolio is less than $500k we will utilize an SMI mutual fund for implementing the Stock Upgrading strategy. Because there is already a management fee within that fund, these Stock Upgrading assets will be excluded from the 0.85% management fee. The net expense ratio for the fund that will be used for Stock Upgrading is 1.13%, so that higher amount (rather than 0.85%) is what you will pay for Stock Upgrading.<br><br>2 In addition to the management fee, TD Ameritrade has transaction fees of up to $9.99 for ETFs and $49.99 for transaction fee mutual funds. Whenever possible we will utilize commission-free ETFs and NTF mutual funds to avoid transaction fees.<br><br>Accounts will be set up at TD Ameritrade and managed by SMI Advisory Services.<br>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#fff"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-1i",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "© 2017 SMI Advisory Services, LLC. All rights reserved.<br>"
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {},
+      "components": [
+        {
+          "_styles": {
+            ".mbr-section-title DIV": {
+              "font-size": "60px"
+            },
+            ".mbr-section-title": {
+              "font-size": "60px",
+              "color": "#ffffff"
+            },
+            ".mbr-section-text": {
+              "color": "#ffffff"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "call5",
+          "_anchor": "call5-28",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "1",
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1330.jpg",
+            "bgColor": "#34495e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.8",
+            "overlayColor": "#34495e",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showText1": false
+          },
+          "title": "Let's Get Started",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quaerat omnis amet accusantium accusamus quidems?",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"https://mobirise.com\">start here</a>",
+          "text1": "or <a href=\"http://mobirise.com\">Check FAQ</a>."
+        },
+        {
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "accordion2",
+          "_anchor": "accordion2-1x",
+          "_params": {
+            "tabs": "6",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.8",
+            "overlayColor": "#34495e",
+            "showTitle": true,
+            "showText": true
+          },
+          "title": "Here's Your Action Plan",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae nostrum quis ab, fuga ducimus, eligendi facere atque provident tempore vitae, cupiditate fugit explicabo. Nostrum quidem itaque blanditiis maxime, perferendis numquam ab a exercitationem impedit repellat, voluptate sunt! Veritatis, nam.",
+          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion2-1x-init\" data-core=\"\" href=\"#collapseOneaccordion2-1x\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>1. Take Risk Assesment Quiz</a>",
+          "text1": "<p>Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.</p>",
+          "title2": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion2-1x-init\" data-core=\"\" href=\"#collapseTwoaccordion2-1x\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">2. Schedule Your Call</a>",
+          "text2": "<p>Mobirise is perfect for non-techies who are not familiar with the intricacies of web development and for designers who prefer to work as visually as possible, without fighting with code. Also great for pro-coders for fast prototyping and small customers' projects.</p>",
+          "title3": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion2-1x-init\" data-core=\"\" href=\"#collapseThreeaccordion2-1x\" aria-expanded=\"true\" aria-controls=\"collapseThree\">3. Select Your Strategy&nbsp;</a>",
+          "text3": "<p>Key differences from traditional builders:<br>* Minimalistic, extremely <strong>easy-to-use</strong> interface<br>* <strong>Mobile</strong>-friendliness, latest website blocks and techniques \"out-the-box\"<br>* <strong>Free</strong> for commercial and non-profit use</p>",
+          "title4": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion2-1x-init\" data-core=\"\" href=\"#collapseFouraccordion2-1x\" aria-expanded=\"true\" aria-controls=\"collapseFour\">4. Sign Your Forms</a>",
+          "text4": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "title5": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion2-1x-init\" data-core=\"\" href=\"#collapseFiveaccordion2-1x\" aria-expanded=\"true\" aria-controls=\"collapseFive\">5. Wait For Transfer</a>",
+          "text5": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "title6": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion2-1x-init\" data-core=\"\" href=\"#collapseSixaccordion2-1x\" aria-expanded=\"false\" aria-controls=\"collapseSix\">6. Login And Finish</a>",
+          "text6": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "_customCSS": "H1 {\n\ttext-align: left;\n\tfont-size: 36px;\n}\nP {\n\ttext-align: left;\n}\n",
+          "_customHTML": "<section class=\"mbr-section accordion\" style=\"background-color: rgb(236, 240, 241); padding-top: 100px; padding-bottom: 100px;\">\n\n    \n        <div class=\"container-fluid\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-lg-5 col-lg-offset-1\">                    \n                    <div class=\"section-head text-center space30\">\n                        <h1 class=\"mbr-section-title display-4 mbr-editable-content\" code-editable-id=\"489\">Here's Your Action Plan</h1>\n                        <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"490\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae nostrum quis ab, fuga ducimus, eligendi facere atque provident tempore vitae, cupiditate fugit explicabo. Nostrum quidem itaque blanditiis maxime, perferendis numquam ab a exercitationem impedit repellat, voluptate sunt! Veritatis, nam.</p>\n                        <div class=\"clearfix\"></div>\n                    </div>\n                </div>\n                <div class=\"col-xs-12 col-lg-5\">\n                    <div id=\"accordion\" class=\"panel-group accordionStyles accordion\" role=\"tablist\" aria-multiselectable=\"true\">\n                      <div class=\"accordion-group\">\n                        <div class=\"panel panel-default\" style=\"display: block;\">\n                            <div class=\"panel-heading\" role=\"tab\" id=\"headingOne\">\n                                <span class=\"signSpan pseudoMinus\"></span>\n                                <h4 class=\"panel-title display-6 mbr-editable-content\" code-editable-id=\"491\"><a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion2-1x-init\" data-core=\"\" href=\"#collapseOneaccordion2-1x\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>1. Take Risk Assesment Quiz</a></h4>\n                            </div>\n                            <div id=\"collapseOneaccordion2-1x\" class=\"panel-collapse noScroll collapse in\" role=\"tabpanel\" aria-labelledby=\"headingOne\">\n                                <div class=\"panel-body lead mbr-editable-content\" code-editable-id=\"492\"><p>Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.</p></div>\n                            </div>\n                        </div>\n                        <div class=\"panel panel-default\" style=\"display: block;\">\n                            <div class=\"panel-heading\" role=\"tab\" id=\"headingTwo\">\n                                <span class=\"signSpan pseudoPlus\"></span>\n                                <h4 class=\"panel-title display-6 mbr-editable-content\" code-editable-id=\"493\"><a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion2-1x-init\" data-core=\"\" href=\"#collapseTwoaccordion2-1x\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">2. Schedule Your Call</a></h4>\n                            </div>\n                            <div id=\"collapseTwoaccordion2-1x\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingTwo\">\n                                <div class=\"panel-body lead mbr-editable-content\" code-editable-id=\"494\"><p>Mobirise is perfect for non-techies who are not familiar with the intricacies of web development and for designers who prefer to work as visually as possible, without fighting with code. Also great for pro-coders for fast prototyping and small customers' projects.</p></div>\n                            </div>\n                        </div>\n                        <div class=\"panel panel-default\" style=\"display: block;\">\n                            <div class=\"panel-heading\" role=\"tab\" id=\"headingThree\">\n                                <span class=\"signSpan pseudoPlus\"></span>\n                                <h4 class=\"panel-title display-6 mbr-editable-content\" code-editable-id=\"495\"><a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion2-1x-init\" data-core=\"\" href=\"#collapseThreeaccordion2-1x\" aria-expanded=\"true\" aria-controls=\"collapseThree\">3. Select Your Strategy&nbsp;</a></h4>\n                            </div>\n                            <div id=\"collapseThreeaccordion2-1x\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\">\n                                <div class=\"panel-body lead mbr-editable-content\" code-editable-id=\"496\"><p>Key differences from traditional builders:<br>* Minimalistic, extremely <strong>easy-to-use</strong> interface<br>* <strong>Mobile</strong>-friendliness, latest website blocks and techniques \"out-the-box\"<br>* <strong>Free</strong> for commercial and non-profit use</p></div>\n                            </div>\n                        </div>\n                        <div class=\"panel panel-default\" style=\"display: block;\">\n                            <div class=\"panel-heading\" role=\"tab\" id=\"headingThree\">\n                                <span class=\"signSpan pseudoPlus\"></span>\n                                <h4 class=\"panel-title display-6 mbr-editable-content\" code-editable-id=\"497\"><a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion2-1x-init\" data-core=\"\" href=\"#collapseFouraccordion2-1x\" aria-expanded=\"true\" aria-controls=\"collapseFour\">4. Sign Your Forms</a></h4>\n                            </div>\n                            <div id=\"collapseFouraccordion2-1x\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\">\n                                <div class=\"panel-body lead mbr-editable-content\" code-editable-id=\"498\"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p></div>\n                            </div>\n                        </div>\n                          <div class=\"panel panel-default\" style=\"display: block;\">\n                            <div class=\"panel-heading\" role=\"tab\" id=\"headingThree\">\n                                <span class=\"signSpan pseudoPlus\"></span>\n                                <h4 class=\"panel-title display-6 mbr-editable-content\" code-editable-id=\"499\"><a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion2-1x-init\" data-core=\"\" href=\"#collapseFiveaccordion2-1x\" aria-expanded=\"true\" aria-controls=\"collapseFive\">5. Wait For Transfer</a></h4>\n                            </div>\n                            <div id=\"collapseFiveaccordion2-1x\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\">\n                                <div class=\"panel-body lead mbr-editable-content\" code-editable-id=\"500\"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p></div>\n                            </div>\n                        </div>\n                          <div class=\"panel panel-default\" style=\"display: block;\">\n                            <div class=\"panel-heading\" role=\"tab\" id=\"headingThree\">\n                                <span class=\"signSpan pseudoPlus\"></span>\n                                <h4 class=\"panel-title display-6 mbr-editable-content\" code-editable-id=\"501\"><a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion2-1x-init\" data-core=\"\" href=\"#collapseFiveaccordion2-1x\" aria-expanded=\"true\" aria-controls=\"collapseFive\">6. Login and Finish</a></h4>\n                            </div>\n                            <div id=\"collapseFiveaccordion2-1x\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\">\n                                <div class=\"panel-body lead mbr-editable-content\" code-editable-id=\"502\"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p></div>\n                            </div>\n                        </div>\n                        <div class=\"panel panel-default\" style=\"display: block;\">\n                            <div class=\"panel-heading\" role=\"tab\" id=\"headingThree\">\n                                <span class=\"signSpan pseudoPlus\"></span>\n                                <h4 class=\"panel-title display-6 mbr-editable-content\" code-editable-id=\"503\"><a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion2-1x-init\" data-core=\"\" href=\"#collapseSixaccordion2-1x\" aria-expanded=\"false\" aria-controls=\"collapseSix\">7. Rest, We've got this!</a></h4>\n                            </div>\n                            <div id=\"collapseSixaccordion2-1x\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\">\n                                <div class=\"panel-body lead mbr-editable-content\" code-editable-id=\"504\"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p></div>\n                            </div>\n                        </div>\n                      </div>    \n                    </div>\n                </div>\n            </div>\n        </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customTemplate": true
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1a242f"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#273646!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2c3e50"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f39c12!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#2c3e50",
+            "fontSize": 0.875,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"true\">LOGIN</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">GET STARTED</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/smi-private-client-white-back-528x128-2.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_customHTML": "<section class=\"menu1\">\n\n     <nav class=\"navbar navbar-dropdown navbar-fixed-top\">\n        <div class=\"container-fluid\">\n\n            <div class=\"mbr-table\">\n                <div class=\"mbr-table-cell\">\n\n                     <div class=\"navbar-brand\">\n                        <a href=\"index.html\" class=\"navbar-logo\"><img src=\"https://dcktxkaneetr8.cloudfront.net/smifund/SMI-Private-Client-white-back-longer-med.png\" alt=\"Mobirise\"></a>\n                        \n                    </div>\n\n                </div>\n                <div class=\"mbr-table-cell\">\n\n                    <button class=\"navbar-toggler pull-xs-right hidden-md-up\" type=\"button\" data-toggle=\"collapse\" data-target=\"#exCollapsingNavbar\">\n                        <div class=\"hamburger-icon\"></div>\n                    </button>\n\n                    <ul class=\"nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm\" id=\"exCollapsingNavbar\"><li class=\"nav-item dropdown\"><a class=\"nav-link link mbr-editable-menu-item\" href=\"https://mobirise.com/\" aria-expanded=\"true\" code-editable-id=\"471\">LOGIN</a></li><li class=\"nav-item nav-btn\"><a class=\"nav-link btn btn-white btn-white-outline mbr-editable-menu-item\" href=\"index.html\" code-editable-id=\"472\">HOME</a></li></ul>\n                    <button hidden=\"\" class=\"navbar-toggler navbar-close\" type=\"button\" data-toggle=\"collapse\" data-target=\"#exCollapsingNavbar\">\n                        <div class=\"close-icon\"></div>\n                    </button>\n\n                </div>\n            </div>\n\n        </div>\n    </nav>\n\n</section>",
+          "_customCSS": ".hide-buttons .nav-btn {\n\tdisplay: none !important;\n}\n.navbar-caption {\n\tcolor: #ffffff;\n}\n.navbar-toggler {\n\tcolor: #ffffff;\n}\n.close-icon::before, .close-icon::after {\n\tbackground-color: #ffffff;\n}\n.link, .dropdown-item {\n\tcolor: #ffffff;\n}\n.link {\n\tfont-size: 0.875rem;\n}\n.dropdown-item, .nav-dropdown-sm .link {\n\tfont-size: 0.948rem;\n}\n.link:hover, .link:focus {\n\tcolor: #f39c12;\n}\n.dropdown-item:hover::before, .dropdown-item:focus::before {\n\tbackground: #f39c12;\n}\n.dropdown-item:hover, .dropdown-item:focus {\n\tcolor: #ffffff;\n}\n.link[aria-expanded=\"true\"], .dropdown-menu {\n\tbackground: #1a242f;\n}\n.nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover {\n\tbackground: #273646!important;\n}\n.navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu {\n\tbackground: #2c3e50;\n}\n.bg-color.transparent .link {\n\tcolor: #ffffff;\n\ttransition: none;\n}\n.bg-color.transparent.opened .link {\n\ttransition: color .2s ease-in-out;\n}\n.bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus {\n\tcolor: #f39c12;\n}\n.link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"] {\n\tcolor: #f39c12!important;\n}\n.container, .container-fluid {margin-right:150px; margin-left:175px}\n",
+          "_customTemplate": true,
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_anchor": "menu-v"
+        }
+      ]
+    },
+    "page2.html": {
+      "settings": {},
       "components": [
         {
           "_styles": {
@@ -127,37 +671,68 @@
             "Theme"
           ],
           "_name": "menu",
-          "_customHTML": "<section class=\"menu1\">\n\n    <nav class=\"navbar navbar-dropdown bg-color transparent navbar-fixed-top\">\n        <div class=\"container-fluid\">\n\n            <div class=\"mbr-table\">\n                <div class=\"mbr-table-cell\">\n\n                    <div class=\"navbar-brand\">\n                        <a href=\"https://mobirise.com\" class=\"navbar-logo\"><img src=\"https://dcktxkaneetr8.cloudfront.net/smifund/SMI-Private-Client---white-back-longer.png\" alt=\"Mobirise\"></a>\n                        \n                    </div>\n\n                </div>\n                <div class=\"mbr-table-cell\">\n\n                    <button class=\"navbar-toggler pull-xs-right hidden-md-up\" type=\"button\" data-toggle=\"collapse\" data-target=\"#exCollapsingNavbar\">\n                        <div class=\"hamburger-icon\"></div>\n                    </button>\n\n                    <ul class=\"nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm\" id=\"exCollapsingNavbar\"><li class=\"nav-item dropdown\"><a class=\"nav-link link mbr-editable-menu-item\" href=\"https://mobirise.com/\" aria-expanded=\"true\" code-editable-id=\"79\">LOGIN</a></li><li class=\"nav-item nav-btn\"><a class=\"nav-link btn btn-white btn-white-outline mbr-editable-menu-item\" href=\"https://mobirise.com/\" code-editable-id=\"80\">GET STARTED</a></li></ul>\n                    <button hidden=\"\" class=\"navbar-toggler navbar-close\" type=\"button\" data-toggle=\"collapse\" data-target=\"#exCollapsingNavbar\">\n                        <div class=\"close-icon\"></div>\n                    </button>\n\n                </div>\n            </div>\n\n        </div>\n    </nav>\n\n</section>",
-          "_customCSS": ".hide-buttons .nav-btn {\n\tdisplay: none !important;\n}\n.navbar-caption {\n\tcolor: #ffffff;\n}\n.navbar-toggler {\n\tcolor: #ffffff;\n}\n.close-icon::before, .close-icon::after {\n\tbackground-color: #ffffff;\n}\n.link, .dropdown-item {\n\tcolor: #ffffff;\n}\n.link {\n\tfont-size: 0.875rem;\n}\n.dropdown-item, .nav-dropdown-sm .link {\n\tfont-size: 0.948rem;\n}\n.link:hover, .link:focus {\n\tcolor: #f39c12;\n}\n.dropdown-item:hover::before, .dropdown-item:focus::before {\n\tbackground: #f39c12;\n}\n.dropdown-item:hover, .dropdown-item:focus {\n\tcolor: #ffffff;\n}\n.link[aria-expanded=\"true\"], .dropdown-menu {\n\tbackground: #1a242f;\n}\n.nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover {\n\tbackground: #273646!important;\n}\n.navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu {\n\tbackground: #2c3e50;\n}\n.bg-color.transparent .link {\n\tcolor: #ffffff;\n\ttransition: none;\n}\n.bg-color.transparent.opened .link {\n\ttransition: color .2s ease-in-out;\n}\n.bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus {\n\tcolor: #f39c12;\n}\n.link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"] {\n\tcolor: #f39c12!important;\n}\n.container, .container-fluid {margin-right:150px; margin-left:50px}\n",
+          "_customHTML": "<section class=\"menu1\">\n\n    <nav class=\"navbar navbar-dropdown bg-color transparent navbar-fixed-top\">\n        <div class=\"container-fluid\">\n\n            <div class=\"mbr-table\">\n                <div class=\"mbr-table-cell\">\n\n                    <div class=\"navbar-brand\">\n                        <a href=\"https://mobirise.com\" class=\"navbar-logo\"><img src=\"https://dcktxkaneetr8.cloudfront.net/smifund/SMI-Private-Client---white-back-longer.png\" alt=\"Mobirise\"></a>\n                        \n                    </div>\n\n                </div>\n                <div class=\"mbr-table-cell\">\n\n                    <button class=\"navbar-toggler pull-xs-right hidden-md-up\" type=\"button\" data-toggle=\"collapse\" data-target=\"#exCollapsingNavbar\">\n                        <div class=\"hamburger-icon\"></div>\n                    </button>\n\n                    <ul class=\"nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm\" id=\"exCollapsingNavbar\"><li class=\"nav-item dropdown\"><a class=\"nav-link link mbr-editable-menu-item\" href=\"https://mobirise.com/\" aria-expanded=\"true\" code-editable-id=\"48\">LOGIN</a></li><li class=\"nav-item nav-btn\"><a class=\"nav-link btn btn-white btn-white-outline mbr-editable-menu-item\" href=\"https://mobirise.com/\" code-editable-id=\"49\">GET STARTED</a></li></ul>\n                    <button hidden=\"\" class=\"navbar-toggler navbar-close\" type=\"button\" data-toggle=\"collapse\" data-target=\"#exCollapsingNavbar\">\n                        <div class=\"close-icon\"></div>\n                    </button>\n\n                </div>\n            </div>\n\n        </div>\n    </nav>\n\n</section>",
+          "_customCSS": ".hide-buttons .nav-btn {\n\tdisplay: none !important;\n}\n.navbar-caption {\n\tcolor: #ffffff;\n}\n.navbar-toggler {\n\tcolor: #ffffff;\n}\n.close-icon::before, .close-icon::after {\n\tbackground-color: #ffffff;\n}\n.link, .dropdown-item {\n\tcolor: #ffffff;\n}\n.link {\n\tfont-size: 0.875rem;\n}\n.dropdown-item, .nav-dropdown-sm .link {\n\tfont-size: 0.948rem;\n}\n.link:hover, .link:focus {\n\tcolor: #f39c12;\n}\n.dropdown-item:hover::before, .dropdown-item:focus::before {\n\tbackground: #f39c12;\n}\n.dropdown-item:hover, .dropdown-item:focus {\n\tcolor: #ffffff;\n}\n.link[aria-expanded=\"true\"], .dropdown-menu {\n\tbackground: #1a242f;\n}\n.nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover {\n\tbackground: #273646!important;\n}\n.navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu {\n\tbackground: #2c3e50;\n}\n.bg-color.transparent .link {\n\tcolor: #ffffff;\n\ttransition: none;\n}\n.bg-color.transparent.opened .link {\n\ttransition: color .2s ease-in-out;\n}\n.bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus {\n\tcolor: #f39c12;\n}\n.link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"] {\n\tcolor: #f39c12!important;\n}\n.container, .container-fluid {margin-right:150px; margin-left:175px}\n",
           "_customTemplate": true,
-          "_anchor": "menu-v",
           "_PHPplaceholders": [],
-          "_JSplaceholders": []
+          "_JSplaceholders": [],
+          "_anchor": "menu-x"
         },
         {
-          "arrowDown": "@THEME_PATH@/components/_images/header/arrowDown.png",
+          "_styles": {
+            ".elements-content": {
+              "padding-bottom": "140px"
+            },
+            ".mbr-section-subtitle": {
+              "letter-spacing": "2px",
+              "margin-bottom": "10px",
+              "font-weight": "700"
+            },
+            ".mbr-section-title, .tab-pane": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "margin-bottom": "60px",
+              "font-size": "48px",
+              "text-align": "left"
+            },
+            ".nav-tabs": {
+              "margin-top": "90px"
+            },
+            "H3": {
+              "font-size": "17px",
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+            },
+            "P": {
+              "font-size": "15px",
+              "text-align": "left"
+            }
+          },
+          "arrowDown": "file:///Users/jonrenner/Library/Application%20Support/Mobirise.com/Mobirise/projectData/arrowDown_2.png",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
           "_name": "header5",
+          "_anchor": "header5-y",
           "_params": {
-            "showHeader": true,
-            "showImages": true,
-            "showTitles": true,
             "tabs": "5",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/istock-2000x1349.jpg",
             "parallax": true,
-            "bgColorRadio": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/istock-2000x1349-1.jpg",
             "bgColor": "#fff",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": 0.9,
             "overlayColor": "#34495e",
-            "overlayOpacity": 0.9
+            "showHeader": true,
+            "showImages": true,
+            "showTitles": true
           },
           "title": "Introducing a new and exciting way to invest in the SMI strategies&nbsp;",
           "media1": {
@@ -246,195 +821,7 @@
           },
           "title6": "CONTACT FORMS",
           "text6": "Easily add subscribe and contact forms without any server-side integration. Just link your email to form and get submissions instantly. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium id perspiciatis, sint odit error animi veniam omnis cupiditate distinctio, a quidem deleniti laborum maiores optio laudantium earum vel! Sint, rerum.",
-          "tabTitle": "<li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1header5-g\" aria-expanded=\"false\">STRATEGIES</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2header5-g\" aria-expanded=\"true\">CUSTOMized</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3header5-g\" aria-expanded=\"false\">SAVE MONEY</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4header5-g\" aria-expanded=\"false\">FREE PLANNING</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5header5-g\" aria-expanded=\"false\">TRUSTED</a></li><li class=\"nav-item\" style=\"display: none;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6header5-g\">Beautiful</a></li>",
-          "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);\n.elements-content {\n\tpadding-bottom: 140px;\n}\n.mbr-section-subtitle {\n\tletter-spacing: 2px;\n\tmargin-bottom: 10px;\n\tfont-weight: 700;\n}\n.mbr-section-title, .tab-pane {\n\tcolor: #fff;\n}\n.mbr-section-title {\n\tmargin-bottom: 60px;\n\tfont-size: 48px;\n\ttext-align: left;\n}\n.nav-tabs {\n\tmargin-top: 90px;\n}\nH3 {\n\tfont-size: 17px;\n\tfont-family: 'Oxygen', sans-serif;\n}\nP {\n\tfont-size: 15px;\n\ttext-align: left;\n}\n",
-          "_customHTML": "<section class=\"mbr-section--bg-adapted mbr-section-full mbr-section--relative header5 mbr-parallax-background mbr-after-navbar\" style=\"background-image: url(@PROJECT_PATH@/assets/images/istock-2000x1349.jpg);\">\n    <div class=\"mbr-overlay\" style=\"opacity: 0.9; background-color: rgb(52, 73, 94);\"></div>\n    <div class=\"mbr-table-cell mbr-table-cell-vertical-bottom elements-content position-relative\">\n        <div class=\"container-fluid\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-lg-8 col-lg-offset-2 text-xs-left\">\n\n                    <h1 class=\"mbr-section-title display-1 mbr-editable-content\" code-editable-id=\"123\">Introducing a new and exciting way to invest in the SMI strategies&nbsp;</h1>\n \n                    <div class=\"tab-content noScroll\">\n\n                        <div id=\"tab1header5-g\" class=\"tab-pane in fade active mbr-table\" role=\"tabpanel\">\n                            <div class=\"col-xs-1 mbr-table-cell table-cell-top\">\n                                <div class=\"mbr-figure-background\"></div>\n                                <div class=\"mbr-figure\"><a href=\"https://mobirise.com\" class=\"icon54-dot-chart1 mbr-iconfont mbr-iconfont-header5\" style=\"color: rgb(243, 156, 18);\"></a></div>\n                            </div>\n                            <div class=\"col-xs-11 mbr-table-cell\">\n                                <p class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"124\">ACCESS TO ALL SMI STRATEGIES</p>\n                                <div class=\"row\">\n                                    <div class=\"col-md-12\">\n                                        <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"125\">Through SMI Private Client, you'll be able to implement the Sound Mind Investing strategies, including Dynamic Assett Allocation, Stock Upgrading, Sector Rotation, Just-the-Basics and Bond Upgrading.</p>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n\n                        <div id=\"tab2header5-g\" class=\"tab-pane fade mbr-table\" role=\"tabpanel\">\n                            <div class=\"col-xs-1 mbr-table-cell table-cell-top\">\n                                <div class=\"mbr-figure-background\"></div>  \n                                <div class=\"mbr-figure\"><a href=\"https://mobirise.com\" class=\"icon54-contact-folder mbr-iconfont mbr-iconfont-header5\" style=\"color: rgb(243, 156, 18);\"></a></div>\n                            </div>\n                            <div class=\"col-xs-11 mbr-table-cell\">\n                                <h3 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"126\">CUSTOMIZED PORTFOLIO RECOMMENDATIONS</h3>\n                                <div class=\"row\">\n                                    <div class=\"col-md-12\">\n                                        <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"127\"><span style=\"line-height: 1.85em;\">SMI Private Client utilizes a short questionnaire that helps us to determine your specific&nbsp;risk tolerance. This allows us to make customized recommendations for your portfolio&nbsp;</span><span style=\"line-height: 1.85em;\">that help you to accomplish your goals without pushing you outside of your investing&nbsp;</span><span style=\"line-height: 1.85em;\">comfort zone.</span><br><br><br><br><br><br></p>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n\n                        <div id=\"tab3header5-g\" class=\"tab-pane fade mbr-table\" role=\"tabpanel\">\n                            <div class=\"col-xs-1 mbr-table-cell table-cell-top\">\n                                <div class=\"mbr-figure-background\"></div>\n                                <div class=\"mbr-figure\"><a href=\"https://mobirise.com\" class=\"icon54-send-money mbr-iconfont mbr-iconfont-header5\" style=\"font-size: 56px; color: rgb(243, 156, 18);\"></a></div>\n                            </div>\n                            <div class=\"col-xs-11 mbr-table-cell\">\n                                <h3 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"128\">SAVE MONEY ON FEES</h3>\n                                <div class=\"row\">\n                                    <div class=\"col-md-12\">\n                                        <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"129\">Choose from the large selection of latest pre-made blocks - full-screen intro, bootstrap carousel, content slider, responsive image gallery with lightbox, parallax scrolling, video backgrounds, hamburger menu, sticky header and more. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, nam officia. Repellendus quae modi eaque sed, aliquam molestias, amet neque blanditiis illo ratione eos! Unde minima porro, consequatur eveniet dolore!</p>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n\n                        <div id=\"tab4header5-g\" class=\"tab-pane fade mbr-table\" role=\"tabpanel\">\n                            <div class=\"col-xs-1 mbr-table-cell table-cell-top\">\n                                <div class=\"mbr-figure-background\"></div>\n                                <div class=\"mbr-figure\"><a href=\"https://mobirise.com\" class=\"icon54-strategy-1 mbr-iconfont mbr-iconfont-header5\" style=\"font-size: 57px; color: rgb(243, 156, 18);\"></a></div>\n                            </div>\n                            <div class=\"col-xs-11 mbr-table-cell\">\n                                <h3 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"130\">FREE PLANNING USING MONEYGUIDEPRO&nbsp;</h3>\n                                <div class=\"row\">\n                                    <div class=\"col-md-12\">\n                                        <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"131\">Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, nisi, ea. Excepturi dolores, laborum ipsum soluta aliquid, ullam repellat ratione iste harum voluptatem? Alias id blanditiis, sequi possimus dolorem dolorum.</p>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n\n                        <div id=\"tab5header5-g\" class=\"tab-pane fade mbr-table\" role=\"tabpanel\">\n                            <div class=\"col-xs-1 mbr-table-cell table-cell-top\">\n                                <div class=\"mbr-figure-background\"></div>\n                                <div class=\"mbr-figure\"><a href=\"https://mobirise.com\" class=\"icon54-firewall-ok mbr-iconfont mbr-iconfont-header5\" style=\"font-size: 59px; color: rgb(243, 156, 18);\"></a></div>\n                            </div>\n                            <div class=\"col-xs-11 mbr-table-cell\">\n                                <h3 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"132\">TRUSTED MANAGERS</h3>\n                                <div class=\"row\">\n                                    <div class=\"col-md-12\">\n                                        <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"133\">Create a responsive, touch-swipe slideshow with <a href=\"http://mobirise.com\">Mobirise bootstrap slider</a>. Add images, text, buttons to slides, set autoplay, full-screen, full-width or boxed layout. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde sunt, illo quo ipsa. Laboriosam voluptatem sunt nisi velit incidunt labore, sapiente pariatur ipsam fugiat doloremque asperiores eos ipsum, eveniet cum.</p>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n\n                        <div id=\"tab6header5-g\" class=\"tab-pane fade mbr-table\" role=\"tabpanel\">\n                            <div class=\"col-xs-1 mbr-table-cell table-cell-top\">\n                                <div class=\"mbr-figure-background\"></div>\n                                <div class=\"mbr-figure\"><a href=\"https://mobirise.com\" class=\"etl-icon icon-global mbr-iconfont mbr-iconfont-header5\" style=\"color: rgb(243, 156, 18);\"></a></div>\n                            </div>\n                            <div class=\"col-xs-11 mbr-table-cell\">\n                                <h3 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"134\">CONTACT FORMS</h3>\n                                <div class=\"row\">\n                                    <div class=\"col-md-12\">\n                                        <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"135\">Easily add subscribe and contact forms without any server-side integration. Just link your email to form and get submissions instantly. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium id perspiciatis, sint odit error animi veniam omnis cupiditate distinctio, a quidem deleniti laborum maiores optio laudantium earum vel! Sint, rerum.</p>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n\n                    </div>\n\n                </div>\n            </div>\n\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-lg-10 col-lg-offset-1\">\n\n                    <div class=\"clearfix\"></div>\n                    \n                    <ul class=\"nav nav-tabs mbr-editable-content\" role=\"tablist\" code-editable-id=\"136\"><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1header5-g\" aria-expanded=\"false\">STRATEGIES</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2header5-g\" aria-expanded=\"true\">CUSTOMized</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3header5-g\" aria-expanded=\"false\">SAVE MONEY</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4header5-g\" aria-expanded=\"false\">FREE PLANNING</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5header5-g\" aria-expanded=\"false\">TRUSTED</a></li><li class=\"nav-item\" style=\"display: none;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6header5-g\">Beautiful</a></li></ul>\n\n                </div>\n            </div>\n        </div>\n        {JS_CODE_0}\n    </div>\n  \n\n</section>",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script src=\"https://www.riskalyze.com/hosted/6f8fbfa360ce7a15a419/rq/lt/lg/btn.js\" type=\"text/javascript\"  data-logo=\"1\" data-button-title=\"Free Portfolio Risk Analysis\"></script>"
-          ],
-          "_customTemplate": true,
-          "_anchor": "header5-g"
-        },
-        {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "{JS_CODE_0}",
-          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script src=\"//www.riskalyze.com/hosted/6f8fbfa360ce7a15a419 /rq/loader.js\" type=\"text/javascript\"></script>"
-          ],
-          "_anchor": "custom-html-q"
-        }
-      ]
-    },
-    "page1.html": {
-      "settings": {},
-      "components": [
-        {
-          "_styles": {
-            ".mbr-section-subtitle": {
-              "text-transform": "uppercase"
-            },
-            ".form-control-label": {}
-          },
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "form1",
-          "_anchor": "form1-s",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/header/03.jpg",
-            "bgColor": "#ecf0f1",
-            "bgColorRadio": true,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#ecf0f1",
-            "showSubtitle": true,
-            "showTitle": true,
-            "showText": true
-          },
-          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
-          "title": "CONTACT FORM",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem nobis, ea amet non commodi voluptate. Aspernatur libero cumque in unde et culpa corrupti asperiores praesentium voluptatum iure dolores illo nihil saepe distinctio eaque explicabo quis ipsam sed consectetur, accusantium ex qui. Voluptas nam consectetur, dolorem sed quo qui iusto dolor!",
-          "form": {
-            "action": "jrenner@soundmindinvesting.com",
-            "alerts": {
-              "success": "Thanks for filling out form!"
-            },
-            "fields": {
-              "name": {
-                "title": "Name",
-                "visible": true,
-                "customTitle": "Name*"
-              },
-              "email": {
-                "title": "Email",
-                "visible": true,
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "title": "Phone",
-                "visible": true,
-                "customTitle": "Phone"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Message"
-              }
-            }
-          },
-          "iconName": "<img src=\"@PROJECT_PATH@/assets/images/icon-name.png\">",
-          "iconEmail": "<img src=\"@PROJECT_PATH@/assets/images/icon-email.png\">",
-          "iconPhone": "<img src=\"@PROJECT_PATH@/assets/images/icon-phone.png\">",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>"
-        },
-        {
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff"
-            },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
-            },
-            ".link, .dropdown-item": {
-              "color": "#ffffff"
-            },
-            ".link": {
-              "font-size": "0.875rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.948rem"
-            },
-            ".link:hover, .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
-              "background": "@primaryColor"
-            },
-            ".dropdown-item:hover, .dropdown-item:focus": {
-              "color": "#ffffff"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#1a242f"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#273646!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#2c3e50"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#ffffff",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#f39c12!important"
-            }
-          },
-          "_params": {
-            "logo": true,
-            "showBrand": false,
-            "hideButtons": false,
-            "sticky": true,
-            "collapsed": true,
-            "transparent": true,
-            "bgColor": "#2c3e50",
-            "fontSize": 0.875,
-            "fontName": {},
-            "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor"
-          },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"true\">LOGIN</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">GET STARTED</a></li>",
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "file:///Users/jonrenner/Library/Application%20Support/Mobirise.com/Mobirise/projectData/smi-private-client---white-back-528x128_3.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "menu",
-          "_customHTML": "<section class=\"menu1\">\n\n    <nav class=\"navbar navbar-dropdown navbar-fixed-top\">\n        <div class=\"container-fluid\">\n\n            <div class=\"mbr-table\">\n                \n                <div class=\"mbr-table-cell\">\n\n                    <button class=\"navbar-toggler pull-xs-right hidden-md-up\" type=\"button\" data-toggle=\"collapse\" data-target=\"#exCollapsingNavbar\">\n                        <div class=\"hamburger-icon\"></div>\n                    </button>\n                    \n       <section class=\"menu1\">\n\n    <nav class=\"navbar navbar-dropdown navbar-fixed-top\">\n        <div class=\"container-fluid\">\n\n            <div class=\"mbr-table\">\n                \n                <div class=\"mbr-table-cell\">\n\n                    <button class=\"navbar-toggler pull-xs-right hidden-md-up\" type=\"button\" data-toggle=\"collapse\" data-target=\"#exCollapsingNavbar\">\n                        <div class=\"hamburger-icon\"></div>\n                    </button>\n\n                    <ul class=\"nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm\" id=\"exCollapsingNavbar\"><li class=\"nav-item dropdown\"><a class=\"nav-link link mbr-editable-menu-item\" href=\"https://mobirise.com/\" aria-expanded=\"true\" code-editable-id=\"377\">LOGIN</a></li><li class=\"nav-item nav-btn\"><a class=\"nav-link btn btn-white btn-white-outline mbr-editable-menu-item\" href=\"https://mobirise.com/\" code-editable-id=\"378\">GET STARTED</a></li></ul>\n                    <button hidden=\"\" class=\"navbar-toggler navbar-close\" type=\"button\" data-toggle=\"collapse\" data-target=\"#exCollapsingNavbar\">\n                        <div class=\"close-icon\"></div>\n                    </button>\n\n                </div>\n            </div>\n\n        </div>\n    </nav>\n\n</section></div></div></div></nav></section>",
-          "_customCSS": ".hide-buttons .nav-btn {\n\tdisplay: none !important;\n}\n.navbar-caption {\n\tcolor: #ffffff;\n}\n.navbar-toggler {\n\tcolor: #ffffff;\n}\n.close-icon::before, .close-icon::after {\n\tbackground-color: #ffffff;\n}\n.link, .dropdown-item {\n\tcolor: #ffffff;\n}\n.link {\n\tfont-size: 0.875rem;\n}\n.dropdown-item, .nav-dropdown-sm .link {\n\tfont-size: 0.948rem;\n}\n.link:hover, .link:focus {\n\tcolor: #f39c12;\n}\n.dropdown-item:hover::before, .dropdown-item:focus::before {\n\tbackground: #f39c12;\n}\n.dropdown-item:hover, .dropdown-item:focus {\n\tcolor: #ffffff;\n}\n.link[aria-expanded=\"true\"], .dropdown-menu {\n\tbackground: #1a242f;\n}\n.nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover {\n\tbackground: #273646!important;\n}\n.navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu {\n\tbackground: #2c3e50;\n}\n.bg-color.transparent .link {\n\tcolor: #ffffff;\n\ttransition: none;\n}\n.bg-color.transparent.opened .link {\n\ttransition: color .2s ease-in-out;\n}\n.bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus {\n\tcolor: #f39c12;\n}\n.link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"] {\n\tcolor: #f39c12!important;\n}\n.container, .container-fluid {margin-right:100px; margin-left:100px}\n",
-          "_customTemplate": true,
-          "_anchor": "menu-p"
+          "tabTitle": "<li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1header5-g\" aria-expanded=\"false\">STRATEGIES</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2header5-g\" aria-expanded=\"false\">CUSTOMized</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3header5-g\" aria-expanded=\"true\">SAVE MONEY</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4header5-g\" aria-expanded=\"false\">FREE PLANNING</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5header5-g\" aria-expanded=\"false\">TRUSTED</a></li><li class=\"nav-item\" style=\"display: none;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6header5-g\">Beautiful</a></li>"
         }
       ]
     }
